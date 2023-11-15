@@ -55,7 +55,7 @@ jobs:
         uses: azure/webapps-deploy@v2
         id: deploy-to-webapp
         with:
-          app-name: 'appTestFromGitHub'
+          app-name: 'test2FromGitHub'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_38B6EA60BA5C4021B8D4830E22B65523 }}
           package: .
